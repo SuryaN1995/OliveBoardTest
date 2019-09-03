@@ -1,4 +1,4 @@
-package com.example.oliverboardtest.ui.baseModel
+package com.example.oliverboardtest.ui.helperClass
 
 import android.Manifest
 import android.content.Context

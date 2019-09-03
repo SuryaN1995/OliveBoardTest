@@ -14,9 +14,9 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.Priority
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.bitmap.CenterCrop
-import com.example.oliverboardtest.AppConstants
+import com.example.oliverboardtest.utils.AppConstants
 import com.example.oliverboardtest.R
-import com.example.oliverboardtest.api.model.AppApiHelper
+import com.example.oliverboardtest.api.helper.AppApiHelper
 import com.example.oliverboardtest.api.model.Photos
 import com.example.oliverboardtest.api.model.Restaurant
 import com.example.oliverboardtest.databinding.FragmentRestaurantBinding
@@ -46,7 +46,11 @@ open class RestaurantFragment : Fragment(), View.OnClickListener, RestaurantCont
             binding =
                 DataBindingUtil.inflate(inflater, R.layout.fragment_restaurant, container, false)
         }
-        presenter = RestaurantPresenter(context?.let { AppApiHelper(it) }, this)
+        presenter = RestaurantPresenter(context?.let {
+            AppApiHelper(
+                it
+            )
+        }, this)
         binding?.clickHandler = this
         resId = arguments?.getInt(AppConstants.RESTAURANT_ID) ?: 0
         presenter?.restaurant(resId)

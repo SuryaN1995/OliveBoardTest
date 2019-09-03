@@ -1,4 +1,4 @@
-package com.example.oliverboardtest.ui.baseModel
+package com.example.oliverboardtest.ui.helperClass
 
 interface BaseView<T> {
 

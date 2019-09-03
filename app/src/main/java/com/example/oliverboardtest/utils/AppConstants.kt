@@ -1,4 +1,4 @@
-package com.example.oliverboardtest
+package com.example.oliverboardtest.utils
 
 object AppConstants {
 

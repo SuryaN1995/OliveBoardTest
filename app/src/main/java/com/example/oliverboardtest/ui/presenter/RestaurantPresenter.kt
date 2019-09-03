@@ -1,8 +1,8 @@
 package com.example.oliverboardtest.ui.presenter
 
-import com.example.oliverboardtest.api.ApiHelper
+import com.example.oliverboardtest.api.helper.ApiHelper
 import com.example.oliverboardtest.api.exception.RetrofitException
-import com.example.oliverboardtest.api.model.AppApiHelper
+import com.example.oliverboardtest.api.helper.AppApiHelper
 import com.example.oliverboardtest.api.model.Restaurant
 import com.example.oliverboardtest.ui.contract.RestaurantContract
 

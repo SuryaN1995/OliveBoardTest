@@ -7,6 +7,10 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import java.io.IOException
 import java.lang.reflect.Type
 
+
+/**
+ * Custom ErrorHandler for RxJava
+ */
 open class RxErrorHandlingFactory : CallAdapter.Factory() {
 
     private val _original by lazy {

@@ -1,13 +1,13 @@
 package com.example.oliverboardtest.ui.presenter
 
-import com.example.oliverboardtest.api.ApiHelper
+import com.example.oliverboardtest.api.helper.ApiHelper
 import com.example.oliverboardtest.api.exception.RetrofitException
-import com.example.oliverboardtest.api.model.AppApiHelper
+import com.example.oliverboardtest.api.helper.AppApiHelper
 import com.example.oliverboardtest.api.model.SearchResponseModel
-import com.example.oliverboardtest.ui.baseModel.LocationHelper
+import com.example.oliverboardtest.ui.helperClass.LocationHelper
 import com.example.oliverboardtest.ui.contract.MainContract
 
-open class MainPresenter(private val apiHelper: AppApiHelper?,private val view: MainContract.View): MainContract.Presenter {
+open class MainPresenter(private val apiHelper: AppApiHelper?, private val view: MainContract.View): MainContract.Presenter {
 
     private var searchText : String? = null
     private var lat : Double ?= null

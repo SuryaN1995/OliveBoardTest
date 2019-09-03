@@ -1,7 +1,7 @@
 package com.example.oliverboardtest.ui.contract
 
 import com.example.oliverboardtest.api.model.Restaurant
-import com.example.oliverboardtest.ui.baseModel.BaseView
+import com.example.oliverboardtest.ui.helperClass.BaseView
 
 interface RestaurantContract {
 

@@ -1,7 +1,7 @@
 package com.example.oliverboardtest
 
-import com.example.oliverboardtest.api.ApiHelper
-import com.example.oliverboardtest.api.model.AppApiHelper
+import com.example.oliverboardtest.api.helper.ApiHelper
+import com.example.oliverboardtest.api.helper.AppApiHelper
 import com.example.oliverboardtest.api.model.SearchResponseModel
 import com.example.oliverboardtest.ui.contract.MainContract
 import com.example.oliverboardtest.ui.presenter.MainPresenter

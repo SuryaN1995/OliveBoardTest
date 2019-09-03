@@ -1,6 +1,6 @@
-package com.example.oliverboardtest.api
+package com.example.oliverboardtest.api.helper
 
-import com.example.oliverboardtest.AppConstants
+import com.example.oliverboardtest.utils.AppConstants
 import com.example.oliverboardtest.api.model.Restaurant
 import com.example.oliverboardtest.api.model.SearchResponseModel
 import io.reactivex.Observable

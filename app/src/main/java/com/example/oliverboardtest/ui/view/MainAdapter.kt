@@ -12,7 +12,7 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.example.oliverboardtest.R
 import com.example.oliverboardtest.api.model.Restaurants
 import com.example.oliverboardtest.databinding.AdapterMainBinding
-import com.example.oliverboardtest.ui.baseModel.RecyclerViewClick
+import com.example.oliverboardtest.ui.helperClass.RecyclerViewClick
 
 open class MainAdapter(var items: List<Restaurants>, private val listener: RecyclerViewClick) :
     RecyclerView.Adapter<MainAdapter.MainViewHolder>() {

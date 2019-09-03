@@ -10,8 +10,8 @@ import androidx.test.espresso.intent.rule.IntentsTestRule
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.rule.GrantPermissionRule
 import com.example.oliverboardtest.R
-import com.example.oliverboardtest.api.ApiManager
-import com.example.oliverboardtest.api.ApiService
+import com.example.oliverboardtest.api.helper.ApiManager
+import com.example.oliverboardtest.api.helper.ApiService
 import com.example.oliverboardtest.api.model.SearchResponseModel
 import com.example.oliverboardtest.idlingResouce.MainActivityIdlingResource
 import com.example.oliverboardtest.ui.view.MainActivity

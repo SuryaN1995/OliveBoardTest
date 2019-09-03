@@ -1,4 +1,4 @@
-package com.example.oliverboardtest.api
+package com.example.oliverboardtest.api.helper
 
 import com.example.oliverboardtest.api.model.Restaurant
 import com.example.oliverboardtest.api.model.SearchResponseModel
@@ -18,7 +18,8 @@ interface ApiHelper {
     fun searchRequest(searchText: String?,
                       lat: Double?,
                       lon: Double?,
-                      radius: Double?,callback: SearchResultCallback)
+                      radius: Double?,callback: SearchResultCallback
+    )
 
     fun restaurantDetails(resId : Int,callback: RestaurantDetailsCallback)
 

@@ -1,10 +1,10 @@
-package com.example.oliverboardtest.api
+package com.example.oliverboardtest.api.helper
 
 import android.content.Context
-import com.example.oliverboardtest.AppConstants
+import com.example.oliverboardtest.utils.AppConstants
 import com.example.oliverboardtest.api.exception.NoConnectivityException
 import com.example.oliverboardtest.api.exception.RxErrorHandlingFactory
-import com.example.oliverboardtest.ui.AppUtils
+import com.example.oliverboardtest.utils.AppUtils
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import okhttp3.Interceptor
@@ -72,7 +72,8 @@ object ApiManager {
     @Synchronized
     fun getApiService(context: Context): ApiService? {
         if (apiService == null) {
-            apiService = createApiService(context)
+            apiService =
+                createApiService(context)
         }
         return apiService
     }
