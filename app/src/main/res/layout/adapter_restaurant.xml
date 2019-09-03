@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_height="125dp"
+        android:layout_width="match_parent"
+        android:id="@+id/photo"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"/>
+</layout>

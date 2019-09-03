@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OliveBoardTest</string>
+    <string name="search">Search</string>
+    <string name="oliveboard">OliveBoard</string>
+    <string name="retry">Retry</string>
+
+    <string name="network_error_msg">Please check your network connection and try again.</string>
+    <string name="unexpected_error">Un expected error Please try again.</string>
+    <string name="go_to_zomato">Go to zomato</string>
+    <string name="photos">Photos</string>
+    <string name="empty_msg">No Restaurants found</string>
+</resources>
